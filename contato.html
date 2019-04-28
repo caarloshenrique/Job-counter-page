@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <!-- Compiled and minified CSS -->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Contato</title>
+  <link rel="icon" type="imagem/png" href="img/snorlax.png" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Navbar goes here -->
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#!" class="brand-logo">Snorlax</a>
+    </div>
+  </nav>
+
+  <!-- Page Layout here -->
+  <div class="row">
+
+    <div class="col s12 m4 l3">
+      <!-- Note that "m4 l3" was added -->
+
+
+      <ul id="slide-out" class="sidenav sidenav-fixed menu">
+        <li>
+          <div class="user-view">
+            <div class="background">
+            </div>
+            <center><a><img class="circle" src="img/snorlax.png"></a>
+              <a href="#name"><span class="white-text name">Balcão de Empregos</span></a>
+              <a href="#web"><span class="white-text email">www.balcaodeempregos.com.br</span></a></center>
+          </div>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="white-text" href="index.html"><i class="white-text material-icons">home</i>Home</a></li>
+        <li><a class="white-text" href="empresa.html"><i class="white-text material-icons">business</i>Cadastro
+            de Empresas</a></li>
+        <li><a class="white-text" href="vaga.html"><i class="white-text material-icons">content_paste</i>Cadastro de
+            Vagas</a></li>
+        <li><a class="white-text" href="curriculo.html"><i class="white-text material-icons">account_circle</i>Cadastro
+            de Currículos</a></li>
+        <li><a class="white-text" href="contato.html"><i class="white-text material-icons">phone</i>Contato</a></li>
+      </ul>
+      
+    </div>
+    <div class="col s12 m8 l9">
+      <!-- Note that "m8 l9" was added -->
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card card-white">
+              <div class="card-content container">
+                <span class="card-title center">Contate-nos</span>
+                <div class="row">
+                  <form class="col s12 m12 l12">
+                    <div class="row">
+                      <div class="input-field col s6 m6 l6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Nome</label>
+                      </div>
+                      <div class="input-field col s6 m6 l6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_telephone" type="text" class="validate">
+                        <label for="icon_telephone">Sobrenome</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email_inline" type="email" class="validate">
+                        <label for="email_inline">E-mail</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s12 m12 l12">
+                        <i class="material-icons prefix">textsms</i>
+                        <input id="input_text" type="text" data-length="60">
+                        <label for="input_text">Assunto</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <form class="col s12 m12 l12">
+                        <div class="row">
+                          <div class="input-field col s12 m12 l12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Mensagem</label>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <center><a href="#modal1" class="waves-effect waves-light btn-large button-green modal-trigger">Enviar</a></center>
+                    <div id="modal1" class="modal center">
+                      <div class="modal-content">
+                        <h4>Recebemos a sua mensagem!</h4>
+                        <p>Daremos um posicionamento sobre o conteúdo informado na mensagem o mais rápido possível.</p>
+                        <p>Fique de olho na sua caixa de e-mails!</p>
+                        <p>A empresa Snorlax agradece pelo contato.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Agradecemos a visita!</h5>
+          <p class="grey-text text-lighten-4">Em nome da Snorlax Business agradecemos a preferência.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="empresa.html">Cadastro de Empresas</a></li>
+            <li><a class="grey-text text-lighten-3" href="vaga.html">Cadastro de Vagas</a></li>
+            <li><a class="grey-text text-lighten-3" href="curriculo.html">Cadastro de Currículos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+        © 2018 Copyright Text
+      </div>
+    </div>
+  </footer>
+  <!--JavaScript at end of body for optimized loading-->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+
+    $(document).ready(function () {
+      $('input#input_text, textarea#textarea2').characterCounter();
+    });
+
+    $(document).ready(function () {
+      $('.modal').modal();
+    });
+  </script>
+</body>
+
+</html>

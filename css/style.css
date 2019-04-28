@@ -1,0 +1,59 @@
+header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+.menu {
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav {
+    background-color: #4776E6;
+}
+
+.footer {
+    background-color: #8E54E9;
+    background: -webkit-linear-gradient(to right, #4776E6, #8E54E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4776E6, #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.button-green {
+    background-color: #78b414;
+}
+
+.carousel .carousel-item{
+    width: 400px;
+    height: 400px;
+}
+
+.a {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.text-green {
+    color: #78b414;
+}
+
+.card-white {
+    background-color: #fff;
+}
+
+.space-margin {
+    margin: 1% 4%;
+}
+
+.text-cor {
+    color: #8E54E9;
+}
+
+.space-button {
+    margin-right: 10px;
+}
