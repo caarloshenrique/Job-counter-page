@@ -1,2 +1,17 @@
 # Job-counter-page
-Página desenvolvida como atividade avaliativa final da disciplina de Linguagem de Apresentação e Estruturação de Conteúdos (LAEC)
+🔍 Page developed as final evaluation activity of the Language of Presentation and Content Structuring
+
+## Getting Started
+
+### Installing
+
+You can also get the latest release using NPM. This release contains source files as well as the compiled CSS and JavaScript files.
+
+```
+$ npm install materialize-css@next
+```
+
+## Built With
+
+* [Materialize](https://materializecss.com/) - The web framework used
+
