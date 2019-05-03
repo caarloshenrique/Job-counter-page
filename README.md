@@ -5,9 +5,15 @@
 
 <img src="/img/home-page.PNG">
 
-### Galeria
+### Galery
 
 <img src="/img/galeria.PNG">
+
+### Forms
+
+<img src="/img/form-1.PNG">
+
+<img src="/img/form-2.PNG">
 
 ## Getting Started
 
