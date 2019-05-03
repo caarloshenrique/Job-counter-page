@@ -1,7 +1,13 @@
 # Job-counter-page
 🔍 Page developed as final evaluation activity of the Language of Presentation and Content Structuring
 
+### Home
+
 <img src="/img/home-page.PNG">
+
+### Galeria
+
+<img src="/img/galeria.PNG">
 
 ## Getting Started
 
