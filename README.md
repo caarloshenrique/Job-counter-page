@@ -19,19 +19,13 @@
 
 <img src="/img/contato.PNG">
 
-## Getting Started
+## :rocket: Tecnologias utilizadas 
+O projeto foi feito utilizando as seguintes tecnologias:
 
-### Installing
-
-You can also get the latest release using NPM. This release contains source files as well as the compiled CSS and JavaScript files.
-
-```
-$ npm install materialize-css@next
-```
-
-## Built With
-
-* [Materialize](https://materializecss.com/) - The web framework used
+- [JavaScript](https://www.javascript.com/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [Materialize](https://materializecss.com/)
 
 ## :page_facing_up: Licença 
 Este projeto é desenvolvido sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para saber mais detalhes.
