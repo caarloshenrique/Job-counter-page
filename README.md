@@ -1,5 +1,5 @@
 # job-counter-page
-🔍 Page developed as final evaluation activity of the Language of Presentation and Content Structuring
+🔍 Página desenvolvida como atividade avaliativa final da disciplina de Linguagem de Apresentação e Estruturação de Conteúdos (LAEC)
 
 ### Home
 
